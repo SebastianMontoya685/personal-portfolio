@@ -1,0 +1,25 @@
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', 'Montserrat', Arial, sans-serif;
+    font-weight: 900;
+    font-size: clamp(2.5rem, 8vw, 5rem);
+}
+
+.hero-content p {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}

@@ -1,0 +1,14 @@
+.project-showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+/* .project-showcase-title {} */
+
+/* .project-showcase-description {} */

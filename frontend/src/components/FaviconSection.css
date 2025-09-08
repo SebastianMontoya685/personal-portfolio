@@ -1,0 +1,15 @@
+.favicon-container {
+    margin-top: clamp(3rem, 8vw, 6.25rem);
+    margin-bottom: clamp(3rem, 8vw, 6.25rem);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+}
+
+.favicon-container h2 {
+    font-family: 'Poppins', 'Montserrat', Arial, sans-serif;
+}

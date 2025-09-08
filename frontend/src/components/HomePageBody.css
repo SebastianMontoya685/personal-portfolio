@@ -1,0 +1,38 @@
+.project-container {
+    margin-top: clamp(3rem, 8vw, 6.25rem);
+    margin-bottom: clamp(3rem, 8vw, 6.25rem);
+}
+
+.project-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 50vh;
+}
+
+.project-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 50vh;
+    margin-top: clamp(10rem, 15vw, 6.25rem);
+    margin-bottom: clamp(3rem, 8vw, 6.25rem);
+}
+
+.project-container-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-container-1-paragraph-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
